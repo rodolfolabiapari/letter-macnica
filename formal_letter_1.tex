@@ -1,0 +1,76 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thin Formal Letter
+% LaTeX Template
+% Version 1.11 (8/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% WikiBooks (http://en.wikibooks.org/wiki/LaTeX/Letters)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{letter}
+
+% Adjust margins for aesthetics
+\addtolength{\voffset}{-0.5in}
+\addtolength{\hoffset}{-0.3in}
+\addtolength{\textheight}{2cm}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{url}
+
+%\longindentation=0pt % Un-commenting this line will push the closing "Sincerely," to the left of the page
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME & ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\signature{Rodolfo Labiapari Mansur Guimarães.} % Your name for the signature at the bottom
+
+\address{Instituto de Ciências Exatas e Biológicas\\Universidade Federal de Ouro Preto\\Rua Quatro, 786 \\ Ouro Preto, Bauxita, Minas Gerais 35400-000 \\ \url{rodolfolabiapari@decom.ufop.br}} % Your address and phone number
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{Suporte Macnica DHW\\ Rua Patricio Farias, 131, Lj 01, Itacorubi \\ Florianópolis, Santa Catarina 88034-132} % Name/title of the addressee
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT SECTION
+%----------------------------------------------------------------------------------------
+
+\opening{\textbf{Prezados,}}
+ 
+Como conversado com o senhor Moreira (\url{gustavo.leao@macnicadhw.com.br}) e Andrade (\url{fernando.andrade@macnicadhw.com.br}), tive a infelicidade de ligar uma fonte de 12V na entrada de energia externa da placa Mercurio IV e como consequência parte de seu circuito não responde mais. Em primeira instância, pensei que havia queimado-a totalmente, mas depois de alguns dias percebi que ela ainda ligava mas sem resposta de seu componente Blaster-USB.
+
+Trocando vários e-mails com o grupo de suporte técnico, percebi que existe uma super temperatura no chip \textit{U7} localizado próximo ao componente de \textit{Ethernet}. Também houve alta temperatura em \textit{U10} e também em \textit{X1} mas receio que esses sejam resultantes da alta temperatura do \textit{U7}.
+
+Solicitaram a troca do chip \textit{U7}, mas não possuo habilidade e nem equipamentos para realizar tal processo com chip tão pequeno quanto aquele e com isso envio-lhes a placa para que vocês possam fazer um orçamento de custo de reparo.
+
+Desde já agradeço a assistência pelo apoio e paciência em testar cada componente comigo via e-mail.
+
+
+
+\vspace{2\parskip} % Extra whitespace for aesthetics
+\closing{Atenciosamente,}
+\vspace{2\parskip} % Extra whitespace for aesthetics
+
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+ 
+\end{document}
